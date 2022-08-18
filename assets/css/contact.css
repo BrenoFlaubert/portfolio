@@ -1,0 +1,32 @@
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact h1 {
+  grid-column: 1;
+  align-self: center;
+  justify-self: center;
+  margin-left: 2em;
+  font-size: 160px;
+  font-weight: bold;
+  font-family: "Fira Sans";
+  color: var(--text-color-light);
+}
+
+.icons-contato {
+  display: flex;
+  gap: 5em;
+  margin-top: 12em;
+  margin-left: 6em;
+}
+
+.icons-contato img {
+  width: 30px;
+  height: 30px;
+}
+
+.icons-contato p {
+  font-size: 24px;
+  font-family: "Fira Sans";
+}

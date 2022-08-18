@@ -1,0 +1,74 @@
+@import "./variables.css";
+
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.experience h1 {
+  grid-column: 1;
+  align-self: center;
+  justify-self: center;
+  margin-left: 2em;
+  font-size: 160px;
+  font-weight: bold;
+  font-family: "Fira Sans";
+  color: var(--text-color-light);
+}
+
+.experience-descripition {
+  grid-column: 2;
+  margin: 6em;
+}
+
+.experience-descripition p {
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: 100;
+  font-family: var(--main-font);
+  color: var(--grey-one);
+}
+
+.experience-descripition h2 {
+  margin-top: 2em;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: var(--main-font);
+  color: var(--grey-one);
+}
+
+.experience-descripition a {
+  color: var(--main-color);
+}
+
+.tecnology {
+  display: flex;
+  gap: 32px;
+  margin-top: 1em;
+}
+
+.experience-tecnology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: var(--main-color);
+  border-radius: 0.4em;
+}
+.experience-tecnology img {
+  height: 4em;
+  width: 4em;
+  align-self: center;
+  justify-self: center;
+}
+.experience-tecnology p {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: var(--main-font);
+  color: var(--text-color-light);
+  align-self: center;
+  justify-self: center;
+  margin-top: 0.4em;
+}

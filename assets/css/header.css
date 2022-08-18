@@ -1,0 +1,33 @@
+@import "./variables.css";
+
+.grid-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--dark-max);
+}
+.logo {
+  grid-column: 1;
+  display: flex;
+  align-self: center;
+  margin-left: 10em;
+}
+.logo img {
+  width: 5em;
+  height: 5em;
+}
+
+.nav {
+  grid-column: 2;
+  display: flex;
+  align-self: center;
+  justify-self: flex-end;
+  margin-right: 14em;
+  gap: 80px;
+}
+
+.nav a {
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 100;
+  font-style: "Fira Sans";
+}

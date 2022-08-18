@@ -1,0 +1,41 @@
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.formacao h1 {
+  grid-column: 1;
+  align-self: center;
+  justify-self: center;
+  margin-left: 2em;
+  font-size: 160px;
+  font-weight: bold;
+  font-family: "Fira Sans";
+  color: var(--text-color-high);
+}
+
+.formacao-descripition {
+  grid-column: 2;
+  margin: 6em;
+}
+
+.formacao-descripition p {
+  font-size: 24px;
+  line-height: 1.5em;
+  font-weight: 100;
+  font-family: var(--main-font);
+  color: var(--grey-one);
+}
+.graduate {
+  width: 424px;
+  height: 204px;
+  background-color: black;
+  margin-top: 1.2em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.graduate-itens {
+  margin: 2em;
+}
